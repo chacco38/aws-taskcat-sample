@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------
+Region: ap-northeast-1
+StackName: tCaT-sample-taskcat-project-test-my-vpc-d27c255f120c414fb370e9d2827a215f
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                         ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ------------------------------------------------------------------------  ---------------------------
+2021-10-19 05:05:30.524000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-sample-taskcat-project-test-my-vpc-d27c255f120c414fb370e9d2827a215f
+2021-10-19 05:05:27.572000+00:00  CREATE_COMPLETE     AWS::EC2::VPC               myVPC
+2021-10-19 05:05:11.066000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC               myVPC                                                                     Resource creation Initiated
+2021-10-19 05:05:10.107000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC               myVPC
+2021-10-19 05:05:05.390000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-sample-taskcat-project-test-my-vpc-d27c255f120c414fb370e9d2827a215f  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Tuesday, 19. October 2021 05:06AM
+-----------------------------------------------------------------------------
+
