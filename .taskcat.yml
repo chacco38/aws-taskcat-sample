@@ -1,0 +1,12 @@
+project:
+  name: sample-taskcat-project
+  regions:
+    - ap-northeast-1
+    - ap-northeast-3
+tests:
+  test-my-vpc:
+    parameters:
+      vpcIpv4CicdBlock: 10.255.0.0/16
+      vpcNameTag: test-vpc
+    template: ./my-vpc.yaml
+
